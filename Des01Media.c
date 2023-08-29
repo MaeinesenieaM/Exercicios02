@@ -3,20 +3,19 @@
 
 int main ()
 {
-	float nota, media, bim = 2;
+//Leia a media do aluno e diga se esta, aprovado, reprovado ou em recuperação.
+	float nota;
 
 	setlocale (LC_ALL, "Portuguese");
 
 	printf ("#####Aprovador e Reprovador##### \n\n");
 	printf (" Digite o total de pontos obtidos: "); scanf("%f", &nota);
 
-	media = nota / 2;
-
-	if (media >= 7.0)
+	if (nota >= 7.0)
 	{
 		printf ("\n \\\\Você foi aprovado!//\n");
 	}
-	 else if (media < 4.0)
+	 else if (nota < 4.0)
 	{
 		printf ("\n //Sinto lhe disser que você foi reprovado.\\\\\n");
 	}
