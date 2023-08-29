@@ -6,11 +6,11 @@ int main ()
 //Leia o salário e imprima se ganha mais que o salário mínimo.
 
 	setlocale (LC_ALL, "Portuguese");
-	float salario;
+	float salario, salariomin = 1300;
 
 	printf (" Insira seu salário: "); scanf ("%f", &salario);
 
-	if (salario > 1302)
+	if (salario > salariomin)
 	{
 		printf (" .\n O seu salario é maior do que o mínimo!");
 	} 
