@@ -7,7 +7,7 @@ int main ()
 
 	setlocale (LC_ALL, "Portuguese");
 
-	printf(" Qual é sua altura em metros?: "); scanf ("%f", altura);
+	printf(" Qual é sua altura em metros?: "); scanf ("%f", &altura);
 
 	if (altura > 1.8)
 	{

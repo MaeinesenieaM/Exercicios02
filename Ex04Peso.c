@@ -7,7 +7,7 @@ int main ()
 
 	setlocale (LC_ALL, "Portuguese");
 
-	printf(" Qual é sua altura em kilos?: "); scanf ("%f", peso);
+	printf(" Qual é sua altura em kilos?: "); scanf ("%f", &peso);
 
 	if (peso < 60)
 	{
